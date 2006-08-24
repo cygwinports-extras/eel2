@@ -5,60 +5,32 @@ to many modules of the GNOME platform. These widgets and extensions
 were developed by hackers working on Nautilus.
 
 Runtime requirements:
-  cygwin-1.5.18-1
-  GConf2-2.10.1-1
-  atk-runtime-1.9.1-1
-  gail-1.8.8-1
-  gnome-menus-2.12.0-1
+  cygwin-1.5.21-1
+  GConf2-2.14.0-2
+  atk-1.10.3-1
+  gail-1.8.11-1
+  libX11_6-1.0.2-1
+  libXrender1-0.9.1-1
   libart_lgpl2-2.3.17-1
-  libbonobo2-2.10.1-1
-  libglade2-2.5.1-1
-  libgnome2-2.12.0.1-1
-  libgnomeui2-2.12.0-1
-  xorg-x11-bin-dlls-6.8.2.0-1
+  libbonobo2-2.14.0-1
+  libglade2-2.6.0-1
+  libgnome-menu2-2.14.0-1
+  libgnome2-2.14.1-1
+  libgnomeui2-2.14.1-1
 
 Build requirements:
-  cygwin-1.5.18-1
-  autoconf2.5-2.59-3
+(besides corresponding devel packages)
+  cygwin-1.5.21-1
+  autoconf2.5-2.59-2
   automake1.9-1.9.6-1
-  binutils-20050610-1
+  binutils-20060709-1
+  cygport-0.2.5-1
   gawk-3.1.5-2
   gcc-core-3.4.4-1
-  libtool1.5-1.5.20-1
-  make-3.80-1
-  pkgconfig-0.17.2-2
-  sed-4.1.4-1
-
-  GConf2-2.10.1-1
-  ORBit2-devel-2.12.3-1
-  atk-devel-1.9.1-1
-  expat-1.95.8-1
-  gail-1.8.8-1
-  gettext-0.14.5-1
-  glib2-devel-2.6.5-1
-  gnome-keyring-0.4.6-1
-  gnome-vfs2-2.10.1-1
-  gtk2-x11-devel-2.6.8-1
-  jpeg-6b-11
-  libXft-devel-2.1.6-1
-  libart_lgpl2-2.3.17-1
-  libaudiofile-devel-0.2.6-2
-  libbonobo2-devel-2.10.1-1
-  libbonoboui2-2.10.1-1
-  libesound-devel-0.2.36-1
-  libfontconfig-devel-2.2.2-1
-  libfreetype2-devel-2.1.9-1
-  libglade2-2.5.1-1
-  libgnome2-devel-2.12.0.1-1
-  libgnomecanvas2-devel-2.12.0-1
-  libgnomeui2-devel-2.12.0-1
-  libiconv-1.9.2-1
-  libxml2-devel-2.6.22-1
-  minires-devel-1.00-1
-  pango-devel-1.8.1-1
-  popt-1.6.4-4
-  xorg-x11-devel-6.8.2.0-1
-  zlib-1.2.3-1
+  libtool1.5-1.5.22-1
+  make-3.81-1
+  pkg-config-0.20-1
+  sed-4.1.5-1
 
 Canonical homepage:
   http://www.gnome.org/
@@ -69,33 +41,34 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack eel2-2.12.2-1-src.tar.bz2
+  unpack eel2-2.14.3-1-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  ./eel-2.12.2-1.sh all
+  cygport ./eel2-2.14.3-1.cygport all
 
 This will create:
-  /usr/src/eel2-2.12.2-1-src.tar.bz2
-  /usr/src/eel2-2.12.2-1.tar.bz2
+  /usr/src/eel2-2.14.3-1-src.tar.bz2
+  /usr/src/eel2-2.14.3-1.tar.bz2
+  /usr/src/eel2-devel-2.14.3-1.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
   /usr/bin/cygeel-2-2.dll
-  /usr/share/doc/Cygwin/eel2-2.12.2.README
-  /usr/share/doc/eel2-2.12.2/AUTHORS
-  /usr/share/doc/eel2-2.12.2/ChangeLog
-  /usr/share/doc/eel2-2.12.2/COPYING
-  /usr/share/doc/eel2-2.12.2/COPYING.LIB
-  /usr/share/doc/eel2-2.12.2/HACKING
-  /usr/share/doc/eel2-2.12.2/INSTALL
-  /usr/share/doc/eel2-2.12.2/MAINTAINERS
-  /usr/share/doc/eel2-2.12.2/NEWS
-  /usr/share/doc/eel2-2.12.2/README
-  /usr/share/doc/eel2-2.12.2/THANKS
-  /usr/share/doc/eel2-2.12.2/TODO
+  /usr/share/doc/Cygwin/eel2-2.14.3.README
+  /usr/share/doc/eel2-2.14.3/AUTHORS
+  /usr/share/doc/eel2-2.14.3/COPYING
+  /usr/share/doc/eel2-2.14.3/COPYING.LIB
+  /usr/share/doc/eel2-2.14.3/ChangeLog
+  /usr/share/doc/eel2-2.14.3/HACKING
+  /usr/share/doc/eel2-2.14.3/INSTALL
+  /usr/share/doc/eel2-2.14.3/MAINTAINERS
+  /usr/share/doc/eel2-2.14.3/NEWS
+  /usr/share/doc/eel2-2.14.3/README
+  /usr/share/doc/eel2-2.14.3/THANKS
+  /usr/share/doc/eel2-2.14.3/TODO
   /usr/share/locale/am/LC_MESSAGES/eel-2.0.mo
   /usr/share/locale/ang/LC_MESSAGES/eel-2.0.mo
   /usr/share/locale/ar/LC_MESSAGES/eel-2.0.mo
@@ -110,6 +83,7 @@ Files included in the binary package:
   /usr/share/locale/cy/LC_MESSAGES/eel-2.0.mo
   /usr/share/locale/da/LC_MESSAGES/eel-2.0.mo
   /usr/share/locale/de/LC_MESSAGES/eel-2.0.mo
+  /usr/share/locale/dz/LC_MESSAGES/eel-2.0.mo
   /usr/share/locale/el/LC_MESSAGES/eel-2.0.mo
   /usr/share/locale/en_CA/LC_MESSAGES/eel-2.0.mo
   /usr/share/locale/en_GB/LC_MESSAGES/eel-2.0.mo
@@ -130,8 +104,11 @@ Files included in the binary package:
   /usr/share/locale/is/LC_MESSAGES/eel-2.0.mo
   /usr/share/locale/it/LC_MESSAGES/eel-2.0.mo
   /usr/share/locale/ja/LC_MESSAGES/eel-2.0.mo
+  /usr/share/locale/ka/LC_MESSAGES/eel-2.0.mo
   /usr/share/locale/kn/LC_MESSAGES/eel-2.0.mo
   /usr/share/locale/ko/LC_MESSAGES/eel-2.0.mo
+  /usr/share/locale/ku/LC_MESSAGES/eel-2.0.mo
+  /usr/share/locale/ky/LC_MESSAGES/eel-2.0.mo
   /usr/share/locale/li/LC_MESSAGES/eel-2.0.mo
   /usr/share/locale/lt/LC_MESSAGES/eel-2.0.mo
   /usr/share/locale/lv/LC_MESSAGES/eel-2.0.mo
@@ -168,6 +145,7 @@ Files included in the binary package:
   /usr/share/locale/wa/LC_MESSAGES/eel-2.0.mo
   /usr/share/locale/xh/LC_MESSAGES/eel-2.0.mo
   /usr/share/locale/zh_CN/LC_MESSAGES/eel-2.0.mo
+  /usr/share/locale/zh_HK/LC_MESSAGES/eel-2.0.mo
   /usr/share/locale/zh_TW/LC_MESSAGES/eel-2.0.mo
 
 Files included in the devel package:
@@ -225,6 +203,12 @@ Files included in the devel package:
 --------------------
 
 Port Notes:
+
+----- version 2.14.3-1 -----
+Version bump.
+
+----- version 2.14.1-1 -----
+Version bump for GNOME 2.14.
 
 ----- version 2.12.2-1 -----
 Version bump for GNOME 2.12.

@@ -1,5 +1,5 @@
 category: Gnome
-requires: cygwin GConf2 atk-runtime gail gnome-menus libart_lgpl2 libbonobo2 libglade2 libgnome2 libgnomeui2 xorg-x11-bin-dlls
+requires: cygwin GConf2 atk gail libX11_6 libXrender1 libart_lgpl2 libbonobo2 libglade2 libgnome-menu2 libgnome2 libgnomeui2
 sdesc: "GNOME Eazel Extensions Library (runtime)"
 ldesc: "The Eazel Extensions Library is a collection of widgets and 
 extensions to many modules of the GNOME platform. These widgets and 

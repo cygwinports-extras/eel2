@@ -1,5 +1,5 @@
 category: Gnome
-requires: cygwin GConf2 atk-devel gail gnome-menus libart_lgpl2 libbonobo2-devel libglade2 libgnome2-devel libgnomeui2-devel xorg-x11-devel
+requires: cygwin GConf2 atk-devel gail gnome-menus libX11 libXrender libart_lgpl2 libbonobo2-devel libglade2 libgnome2-devel libgnomeui2-devel
 external-source: eel2
 sdesc: "GNOME Eazel Extensions Library (development)"
 ldesc: "The Eazel Extensions Library is a collection of widgets and 
