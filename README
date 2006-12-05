@@ -5,22 +5,22 @@ to many modules of the GNOME platform. These widgets and extensions
 were developed by hackers working on Nautilus.
 
 Runtime requirements:
-  cygwin-1.5.21-2
+  cygwin-1.5.22-1
   GConf2-2.16.0-1
   atk-1.12.3-1
   gail-1.8.11-1
-  libX11_6-1.0.3-1
-  libXrender1-0.9.1-1
+  libX11_6-1.1.1-1
+  libXrender1-0.9.2-1
   libart_lgpl2-2.3.17-1
   libbonobo2-2.16.0-1
   libglade2-2.6.0-1
   libgnome-menu2-2.16.0-1
   libgnome2-2.16.0-1
-  libgnomeui2-2.16.0-1
+  libgnomeui2-2.16.1-1
 
 Build requirements:
 (besides corresponding devel packages)
-  cygwin-1.5.21-2
+  cygwin-1.5.22-1
   autoconf2.5-2.60-1
   automake1.9-1.9.6-1
   binutils-20060817-1
@@ -29,7 +29,7 @@ Build requirements:
   gcc-core-3.4.4-1
   libtool1.5-1.5.23a-1
   make-3.81-1
-  pkg-config-0.20-1
+  pkg-config-0.21-1
   sed-4.1.5-1
 
 Canonical homepage:
@@ -41,34 +41,34 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack eel2-2.16.1-1-src.tar.bz2
+  unpack eel2-2.16.3-1-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./eel2-2.16.1-1.cygport all
+  cygport ./eel2-2.16.3-1.cygport all
 
 This will create:
-  /usr/src/eel2-2.16.1-1-src.tar.bz2
-  /usr/src/eel2-2.16.1-1.tar.bz2
-  /usr/src/eel2-devel-2.16.1-1.tar.bz2
+  /usr/src/eel2-2.16.3-1-src.tar.bz2
+  /usr/src/eel2-2.16.3-1.tar.bz2
+  /usr/src/eel2-devel-2.16.3-1.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
   /usr/bin/cygeel-2-2.dll
-  /usr/share/doc/Cygwin/eel2-2.16.1.README
-  /usr/share/doc/eel2-2.16.1/AUTHORS
-  /usr/share/doc/eel2-2.16.1/COPYING
-  /usr/share/doc/eel2-2.16.1/COPYING.LIB
-  /usr/share/doc/eel2-2.16.1/ChangeLog
-  /usr/share/doc/eel2-2.16.1/HACKING
-  /usr/share/doc/eel2-2.16.1/INSTALL
-  /usr/share/doc/eel2-2.16.1/MAINTAINERS
-  /usr/share/doc/eel2-2.16.1/NEWS
-  /usr/share/doc/eel2-2.16.1/README
-  /usr/share/doc/eel2-2.16.1/THANKS
-  /usr/share/doc/eel2-2.16.1/TODO
+  /usr/share/doc/Cygwin/eel2-2.16.3.README
+  /usr/share/doc/eel2-2.16.3/AUTHORS
+  /usr/share/doc/eel2-2.16.3/COPYING
+  /usr/share/doc/eel2-2.16.3/COPYING.LIB
+  /usr/share/doc/eel2-2.16.3/ChangeLog
+  /usr/share/doc/eel2-2.16.3/HACKING
+  /usr/share/doc/eel2-2.16.3/INSTALL
+  /usr/share/doc/eel2-2.16.3/MAINTAINERS
+  /usr/share/doc/eel2-2.16.3/NEWS
+  /usr/share/doc/eel2-2.16.3/README
+  /usr/share/doc/eel2-2.16.3/THANKS
+  /usr/share/doc/eel2-2.16.3/TODO
   /usr/share/locale/am/LC_MESSAGES/eel-2.0.mo
   /usr/share/locale/ang/LC_MESSAGES/eel-2.0.mo
   /usr/share/locale/ar/LC_MESSAGES/eel-2.0.mo
@@ -203,6 +203,9 @@ Files included in the devel package:
 --------------------
 
 Port Notes:
+
+----- version 2.16.3-1 -----
+Version bump.
 
 ----- version 2.16.1-1 -----
 Version bump for GNOME 2.16.
