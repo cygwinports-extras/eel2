@@ -8,11 +8,11 @@ Runtime requirements:
   cygwin-1.5.22-1
   GConf2-2.16.0-1
   atk-1.12.3-1
-  gail-1.8.11-1
   libX11_6-1.1.1-1
   libXrender1-0.9.2-1
   libart_lgpl2-2.3.17-1
   libbonobo2-2.16.0-1
+  libgailutil18-1.9.3-1
   libglade2-2.6.0-1
   libgnome-menu2-2.16.0-1
   libgnome2-2.16.0-1
@@ -203,6 +203,9 @@ Files included in the devel package:
 --------------------
 
 Port Notes:
+
+----- version 2.16.3-2 -----
+Rebuilt with gail-1.9.
 
 ----- version 2.16.3-1 -----
 Version bump.
