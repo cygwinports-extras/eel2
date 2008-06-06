@@ -1,5 +1,5 @@
 category: Gnome
-requires: cygwin GConf2 atk glib2 gnome-menus gnome-vfs2 gtk2-x11 libX11_6 libXrender1 libart_lgpl2 libbonobo2 libgailutil18 libglade2 libgnome2 libgnomeui2 libintl8 libxml2 pango
+requires: cygwin GConf2 atk glib2 gdk-pixbuf2 gtk2-x11 libX11_6 libXrender1 libgailutil18 libglade2 libgnome-desktop2 libgnome2 libgnomeui2 libintl8 libxml2 pango startup-notification
 sdesc: "GNOME Eazel Extensions Library (runtime)"
 ldesc: "The Eazel Extensions Library is a collection of widgets and 
 extensions to many modules of the GNOME platform. These widgets and 
