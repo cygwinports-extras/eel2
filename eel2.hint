@@ -1,0 +1,5 @@
+category: Gnome
+sdesc: "GNOME Eazel Extensions Library (sources)"
+ldesc: "The Eazel Extensions Library is a collection of widgets and 
+extensions to many modules of the GNOME platform. These widgets and 
+extensions were developed by hackers working on Nautilus."
