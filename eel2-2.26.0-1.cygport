@@ -4,8 +4,6 @@ inherit gnome2
 
 DESCRIPTION="GNOME Eazel Extensions Library"
 
-PATCH_URI="2.24-no-libsn-dep.patch"		# remove for 2.26
-
 PKG_NAMES="${PN} libeel2_2 libeel2-devel"
 libeel2_2_CONTENTS='usr/bin/*-2-2.dll usr/share/'
 libeel2_devel_CONTENTS='usr/include/ usr/lib/'

@@ -1,5 +1,5 @@
 category: Gnome
-requires: cygwin libeel2_2 libatk1.0-devel libgailutil-devel libgconf2-devel libgdk_pixbuf2.0-devel libglade2.0-devel libglib2.0-devel libgnome-desktop2-devel libgnome2-devel libgnomeui2-devel libgtk2.0-devel gettext libpango1.0-devel libX11-devel libxml2-devel libXrender-devel
+requires: cygwin libeel2_2 libatk1.0-devel libgailutil-devel libgconf2-devel libgdk_pixbuf2.0-devel libglib2.0-devel libgnome-desktop2-devel libgtk2.0-devel gettext libpango1.0-devel libX11-devel libxml2-devel libXrender-devel
 external-source: eel2
 sdesc: "GNOME Eazel Extensions Library (development)"
 ldesc: "The Eazel Extensions Library is a collection of widgets and 
